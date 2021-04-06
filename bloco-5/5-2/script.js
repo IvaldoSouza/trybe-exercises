@@ -1,0 +1,1 @@
+document.querySelector('#paiDoPai').parentNode.style = 'red'
