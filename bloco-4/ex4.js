@@ -1,14 +1,24 @@
-let player = {
-    name: 'Marta',
-    lastName: 'Silva',
-    age: 34,
-    medals: {
-        goden: 2,
-        silver: 3,
-    }
+let info = {
+    personagem: 'Margarida',
+    origem: 'Pato Donald',
+    nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
+    recorrente: 'sim'
 }
-let bestInTheWord = [2006, 2007, 2008, 2009, 2010, 2018];
+
+let info2 = {
+    personagem: 'Tio Patinhas',
+    origem: 'Christmas on Bear Mountain, Dells Four Color Comics #178',
+    nota: 'último MacPatinhas',
+    recorrente: 'Ambos recorrentes'
+}
+
+for (let index in info) {
+     console.log(info[index] + ' e ' + info2[index]);
+}
 
 
-console.log('A jogadora ' + player.name + ' ' + player.lastName + ' tem ' + player.age + ' de idade.')
-console.log('A jogadora ' + player.name + ' ' + player.lastName + ' foi eleita a melhor do mundo ' + bestInTheWord.length + ' vezes')
+Margarida e Tio Patinhas
+Pato Donald e Christmas on Bear Mountain, Dell's Four Color Comics #178
+Namorada do personagem principal nos quadrinhos do Pato Donald e O último MacPatinhas
+Ambos recorrentes // Atenção para essa última linha!*/
+
